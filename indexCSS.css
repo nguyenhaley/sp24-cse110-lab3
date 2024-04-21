@@ -1,0 +1,20 @@
+/* style changes to title */
+h1 {
+    color: #A9A9A9
+}
+
+/* style changes to important topics in meeting */
+h2 {
+    color: (177, 156, 217);
+}
+
+
+/* style changes to meeting topic and date */
+h3{
+    color: lightgrey
+}
+
+/* style changes to navigation bar */
+.navigation{
+    color: (195, 53, 79);
+}
