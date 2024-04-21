@@ -1,6 +1,6 @@
 /* style changes to title */
 h1 {
-    color: #656565
+    color: #656565;
 }
 
 /* style changes to important topics in meeting */
@@ -11,7 +11,7 @@ h2 {
 
 /* style changes to meeting topic and date */
 h3{
-    color: lightgrey
+    color: lightgrey;
 }
 
 /* style changes to navigation bar */
