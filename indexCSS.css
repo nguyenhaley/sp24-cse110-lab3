@@ -25,5 +25,5 @@ h3{
 
 /* style change to last topic */
 #unique{
-    color: white /* use wider gamut color on this */
+    color: white; /* use wider gamut color on this */
 }
