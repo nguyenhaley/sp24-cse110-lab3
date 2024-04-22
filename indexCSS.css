@@ -57,6 +57,8 @@ form{
 .introduction{
     font-size: 1lh;
     text-decoration: underline;
+
+    display: block;
 }
 
 /* style changes to navigation bar */
@@ -101,8 +103,20 @@ a:hover{
     margin-bottom: 2px;
     margin-right: 2px;
     margin-left: 2px;
+
+    display: grid;
 }
 
 b, strong {
     color: hsl(182, 25%, 50%);
+}
+
+/* styles attendance list section */
+#attendance{
+    display: grid;
+}
+
+/* styles questions/comments/concerns section */
+#questions{
+    display: inline-block;
 }
