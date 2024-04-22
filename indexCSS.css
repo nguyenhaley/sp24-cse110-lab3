@@ -1,3 +1,30 @@
+/* responsiveness changes for small screen */
+@media screen and (max-width: 600px) {
+    
+}
+
+/* responsiveness changes for tablet or smaller laptop */
+@media screen and (min-width: 601px) and (max-width:1000px) {
+    /* change introduction width */
+    #entire-intro{
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 20px;
+    
+        padding: 12px 12px 12px 12px;
+        margin: 1px 1px 1px 1px;
+    
+        max-width: 700px;
+        max-height: 650px;
+    }
+
+}
+
+/* responsiveness changes for desktop */
+@media  screen and (min-width: 1001px) and (max-width:2500px) {
+    
+}
 
 
 /* style changes to title */
