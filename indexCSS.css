@@ -123,6 +123,11 @@ b, strong {
 /* styles attendance list section */
 #attendance{
     display: grid;
+    align-self: start;
+    grid-auto-columns: 150px;
+    place-self: center;
+    row-gap: 15px;
+    column-gap: 10px;
 }
 
 /* styles questions/comments/concerns section */
@@ -152,3 +157,12 @@ button:active{
 #last-button{
     font-size:40px;
 }
+
+/* styles flex container */
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+}
+
