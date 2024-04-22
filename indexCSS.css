@@ -1,11 +1,14 @@
 /* style changes to title */
 h1 {
     color: #656565;
+    background-color: rgb(95, 158, 160);
+
 }
 
 /* style changes to important topics in meeting */
 h2 {
     color: rgb(177, 156, 217);
+    background-color: lightgrey;
 }
 
 /* style changes to meeting topic and date */
@@ -15,12 +18,13 @@ h3{
 
 /* style changes to navigation bar */
 .navigation{
-    color: hsl(195, 53, 79);
+    color: hsl(182, 25%, 50%);
 }
 
 /* style changes to topic class */
 .topic{
-    color: hsl(195, 53, 79);
+    color: hsl(182, 25%, 50%);
+    background-color: rgb(230, 230, 250);
 }
 
 /* style change to last topic */
