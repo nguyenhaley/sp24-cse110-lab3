@@ -20,12 +20,6 @@ h3{
     color: lightgrey;
 }
 
-/* style changes to navigation bar */
-.navigation{
-    color: hsl(182, 25%, 50%);
-
-}
-
 /* style changes to topic class */
 .topic{
     color: hsl(182, 25%, 50%);
@@ -54,4 +48,18 @@ form{
 /* style changes to introduction paragraph */
 #introduction{
     font-size: 1lh;
+}
+
+/* style changes to navigation bar */
+a[href="https://r.mtdv.me/"]{
+    font-size: 1.5em;
+}
+
+#agenda{
+    font-size: 1.5em;
+}
+
+/* when hovering over navgation bar, element will change color */
+a:hover{
+    color:black;
 }
