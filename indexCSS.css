@@ -65,3 +65,32 @@ a[href="https://r.mtdv.me/"]{
 a:hover{
     color:black;
 }
+
+/* styles the my entire introduction */
+#entire-intro{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+
+    padding: 15px 15px 15px 15px;
+    margin: 1px 1px 1px 1px;
+
+    width: 800px;
+}
+
+/* styles the entire relevant images section */
+#relevant{
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
