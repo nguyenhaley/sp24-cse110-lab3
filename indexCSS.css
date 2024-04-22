@@ -26,7 +26,14 @@
     
 }
 
-
+/* universal selector to change the font of everything */
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+  
 /* style changes to title */
 h1 {
     color: #656565;
@@ -46,7 +53,7 @@ h2 {
     color: rgb(177, 156, 217);
     background-color: lightgrey;
 
-    width: 21rem;
+    width: 23rem;
 
     text-align: center;
 }
@@ -61,7 +68,7 @@ h3{
     color: hsl(182, 25%, 50%);
     background-color: rgb(230, 230, 250);
 
-    width: 16rem;
+    width: 18rem;
 
     text-align: center;
 }
@@ -192,4 +199,3 @@ button:active{
     justify-content: center;
     column-gap: 30px;
 }
-
