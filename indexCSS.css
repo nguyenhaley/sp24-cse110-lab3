@@ -8,7 +8,6 @@ h2 {
     color: rgb(177, 156, 217);
 }
 
-
 /* style changes to meeting topic and date */
 h3{
     color: lightgrey;
@@ -17,4 +16,14 @@ h3{
 /* style changes to navigation bar */
 .navigation{
     color: hsl(195, 53, 79);
+}
+
+/* style changes to topic class */
+.topic{
+    color: hsl(195, 53, 79);
+}
+
+/* style change to last topic */
+#unique{
+    color: white /* use wider gamut color on this */
 }
