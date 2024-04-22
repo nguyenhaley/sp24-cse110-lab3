@@ -87,6 +87,7 @@ a:hover{
     margin: 1px 1px 1px 1px;
 
     width: 800px;
+    height: 600px;
 }
 
 /* styles the entire relevant images section */
@@ -119,4 +120,12 @@ b, strong {
 /* styles questions/comments/concerns section */
 #questions{
     display: inline-block;
+}
+
+#footer{
+    width: 400px;
+    height: 200px;
+
+    max-width: 40%;
+    max-height: 40%;
 }
