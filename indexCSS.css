@@ -126,6 +126,6 @@ b, strong {
     width: 400px;
     height: 200px;
 
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 60%;
+    min-height: 40%;
 }
