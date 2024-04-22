@@ -9,6 +9,9 @@ h1 {
     width: 11em;
 
     text-align: center;
+
+    position: sticky;
+    top: 5px;
 }
 
 /* style changes to important topics in meeting */
@@ -51,6 +54,9 @@ form{
 /* style changes to meme picture */
 #last-picture{
     width: 12cm;
+
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
 
 /* style changes to introduction paragraph */
@@ -59,6 +65,8 @@ form{
     text-decoration: underline;
 
     display: block;
+
+    position: static;
 }
 
 /* style changes to navigation bar */
@@ -122,10 +130,25 @@ b, strong {
     display: inline-block;
 }
 
+/* styles the footer */
 #footer{
     width: 400px;
     height: 200px;
 
     max-width: 60%;
     min-height: 40%;
+
+}
+
+/* will change the words in a button to yellow when hovering over it */
+button:hover{
+    color: yellow;
+}
+
+button:active{
+    box-shadow: 2px 2px 5px black;
+}
+
+#last-button{
+    font-size:40px;
 }
