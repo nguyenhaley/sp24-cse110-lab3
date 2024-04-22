@@ -29,14 +29,15 @@
 /* universal selector to change the font of everything */
 * {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
 }
-  
+
 /* style changes to title */
 h1 {
-    color: #656565;
+    --titleColor: #656565;
+    color: var(--titleColor, lightgray);
+
     background-color: rgb(95, 158, 160);
 
     font-size: 3em;
@@ -47,6 +48,8 @@ h1 {
     position: sticky;
     top: 5px;
 }
+
+
 
 /* style changes to important topics in meeting */
 h2 {
@@ -60,7 +63,8 @@ h2 {
 
 /* style changes to meeting topic and date */
 h3{
-    color: lightgrey;
+    --titleColor: 16px;
+    color: var(--titleColor, lightgray);
 }
 
 /* style changes to topic class */
@@ -75,7 +79,7 @@ h3{
 
 /* style change to last topic */
 #unique{
-    color: black; /* use wider gamut color on this */
+    color: black;
 
     font-size: 0.5in;
 }
@@ -91,16 +95,6 @@ form{
 
     margin-bottom: 20px;
     margin-top: -10px;
-}
-
-/* style changes to introduction paragraph */
-.introduction{
-    font-size: 1lh;
-    text-decoration: underline;
-
-    display: block;
-
-    position: static;
 }
 
 /* style changes to navigation bar */
@@ -119,7 +113,7 @@ a:hover{
 }
 
 /* styles my entire introduction */
-#entire-intro{
+.entire-intro{
     border-color: black;
     border-width: 2px;
     border-style: solid;
@@ -130,6 +124,16 @@ a:hover{
 
     width: 800px;
     height: 600px;
+}
+
+/* style changes to introduction paragraph */
+.entire-intro p{
+    font-size: 1lh;
+    text-decoration: underline;
+
+    display: block;
+
+    position: static;
 }
 
 /* styles the entire relevant images section */
@@ -148,6 +152,7 @@ a:hover{
     margin-left: 2px;
 
     display: grid;
+    row-gap: 20px;
 }
 
 b, strong {
@@ -198,4 +203,43 @@ button:active{
     flex-direction: row;
     justify-content: center;
     column-gap: 30px;
+}
+
+/* will style only the list elements in the ordered list and not in the nested unordered list */
+ol > li {
+    text-decoration: underline;
+}
+
+/* will style an img tag found after a h3 tag */
+h3 ~ img {
+    border:2.5px solid black;
+}
+
+/* styles the h3 element right after the h1 element */
+h1 + h3 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+/* this styles div tags with important class */
+div.important{
+    background-color: lightblue;
+}
+
+/* has selector */
+section:has(p){
+    text-decoration: dashed;
+    background-color: lightcyan;
+}
+
+/* nested selectors */
+.first{
+    text-align: center;
+    & > b{
+        text-emphasis: none;
+        &:hover{
+            color: color(from white srgb r g b / 0.5);
+            background-color: color-mix(in lch, plum 40%, pink);
+        }
+    }
 }
