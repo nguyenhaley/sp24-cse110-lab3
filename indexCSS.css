@@ -3,12 +3,16 @@ h1 {
     color: #656565;
     background-color: rgb(95, 158, 160);
 
+    font-size: 3em;
+    width: 11em;
 }
 
 /* style changes to important topics in meeting */
 h2 {
     color: rgb(177, 156, 217);
     background-color: lightgrey;
+
+    width: 21rem;
 }
 
 /* style changes to meeting topic and date */
@@ -19,15 +23,35 @@ h3{
 /* style changes to navigation bar */
 .navigation{
     color: hsl(182, 25%, 50%);
+
 }
 
 /* style changes to topic class */
 .topic{
     color: hsl(182, 25%, 50%);
     background-color: rgb(230, 230, 250);
+
+    width: 16rem;
 }
 
 /* style change to last topic */
 #unique{
-    color: white; /* use wider gamut color on this */
+    color: black; /* use wider gamut color on this */
+
+    font-size: 0.5in;
+}
+
+/* style changes to form */
+form{
+    width: 40px;
+}
+
+/* style changes to meme picture */
+#last-picture{
+    width: 12cm;
+}
+
+/* style changes to introduction paragraph */
+#introduction{
+    font-size: 1lh;
 }
